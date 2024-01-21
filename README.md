@@ -9,7 +9,7 @@ Amplify is a Full Stack Music Web-Application.
 
 **Server-Side:** Node JS, Express JS
 
-**Database:** Mongo DB
+**Database:** MongoDB
   
 ## Run Locally
 
@@ -22,7 +22,7 @@ Clone the project
 Go to the project directory.
 
 ```bash
-  cd Amplify
+  cd amplify_backend
 ```
 
 Install dependencies
@@ -32,20 +32,21 @@ Install dependencies
 ```
 
 ```bash
-  cd frontend/
+  cd amplify_frontend/
   npm install
 ```
 
 Start the server
 
 ```bash
-  npm run start
+  amplify_backend
+  npm start
 ```
 Start the Client
 
 ```bash
   //open a new terminal
-  cd frontend
+  cd amplify_frontend
   npm start
 ```
 
