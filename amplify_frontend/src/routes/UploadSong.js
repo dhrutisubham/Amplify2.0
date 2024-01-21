@@ -39,8 +39,12 @@ const UploadSong = ({ setUrl }) => {
       <div className="h-full w-1/5 bg-black flex flex-col justify-between pb-14">
         <div>
           {/* This div is for logo */}
-          <div className="logoDiv p-5">
-            <img src={spotify_logo} alt="spotify logo" width={100} />
+          <div className="logoDiv p-5 text-white flex">
+            {/* <img src={spotify_logo} alt="spotify logo" width={100} /> */}
+            <div>
+              <Icon icon="simple-icons:awsamplify" className="text-4xl" />
+            </div>
+            <div className="text-xl font-semibold px-3 pt-2">Amplify</div>
           </div>
           <div className="py-5">
             <IconText iconName={"ic:round-home"} displayText={"Home"} active />
