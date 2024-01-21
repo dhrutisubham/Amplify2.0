@@ -59,9 +59,9 @@ Start the Client
 ### Home Screen
 ![](https://github.com/Ajeetesh2003/Amplify/blob/master/screenshots/home.png)
 ### Song upload by Artists
-![](https://github.com/Ajeetesh2003/Amplify/blob/master/screenshots/songupload1.png)
-![](https://github.com/Ajeetesh2003/Amplify/blob/master/screenshots/songupload2.png)
-![](https://github.com/Ajeetesh2003/Amplify/blob/master/screenshots/songupload3.png)
+![](https://github.com/Ajeetesh2003/Amplify/blob/master/screenshots/uploadsong1.png)
+![](https://github.com/Ajeetesh2003/Amplify/blob/master/screenshots/uploadsong2.png)
+![](https://github.com/Ajeetesh2003/Amplify/blob/master/screenshots/uploadsong3.png)
 ### Access your songs
 ![](https://github.com/Ajeetesh2003/Amplify/blob/master/screenshots/mymusic.png)
 ### Search Songs
