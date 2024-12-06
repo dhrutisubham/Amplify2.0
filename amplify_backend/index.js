@@ -13,7 +13,13 @@ const cors = require("cors");
 const app = express();
 const port = 8080;
 
-app.use(cors());
+app.use(cors(
+  {
+  origin: 'https://amplify0.netlify.app/', // Replace with your Netlify domain
+  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+  credentials: true, // If you need to allow cookies
+};
+));
 app.use(express.json()); //req.body me jo bhi aa raha hai use json me convert kr dena hai since req.body json pe shi chalega
 
 // connecting mongodb to our node app
